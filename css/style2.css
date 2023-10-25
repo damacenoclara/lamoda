@@ -1,0 +1,71 @@
+.insta{
+    position: relative;
+    left: 90px;
+    margin-top: -34px;
+}
+.youtube{
+    margin: -60px 120px 0px;
+}
+.youtube2{
+    margin: 0px 500px 0px;
+}
+.posicao{
+    position: relative;
+    margin-top: -70px;
+}
+.spotify2{
+    margin: -60px 1000px 0px;
+}
+.spotify{
+    margin: -55px 100px 0px;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+.parcerias1{
+    width: 400px;
+}
+.Parcerias{
+    display: flex;
+    justify-content: space-between;
+}
+.parcerias2{
+    width: 400px;
+}
+.dublagem{
+    display: flex;
+    justify-content: center;
+}
+.texto{
+    width: 300px;
+}
+.dublagem2{
+    display: flex;
+    justify-content: space-around;
+}
+#roberto{
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+.favoritas{
+    display: flex;
+    justify-content: center;
+}
+#msc1{
+    width: 200px;
+    border-radius: 10px;
+}
+.musicas{
+    display: flex;
+    justify-content: space-around;
+}
+.butao{
+    display: flex;
+    justify-content: center;
+}
+.blogao{
+    display: flex;
+    justify-content: center;
+}

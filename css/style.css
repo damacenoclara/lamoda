@@ -44,7 +44,7 @@ p {
 	font-weight: 400;
 }
 a {
-	color:#808080	;
+	color:#7EC13F;
 	background:none;
 	text-decoration: none;
 	outline: none;
@@ -67,7 +67,7 @@ a:hover, a:active, a:focus {
 }
 
 img {
-	max-width:100%;
+	width:100px;
 }
 
 select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .form-control {
@@ -132,20 +132,19 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 	bottom:30px;
 	right:15px;
 	display:none;
-	background:transparent;
-	
+	background:rgba(126, 193, 63, .8);
 	text-align: center;
 }
 
 .scrollup i {
-	color:#000000;
+	color:#fff;
 	font-size:15px;
 	display:block;
 	line-height:33px;
 }
 
 .scrollup:hover {
-	background:#;
+	background:rgba(126, 193, 63, .9);
 }
 
 .section {
@@ -295,7 +294,7 @@ section {
 
 .btn-white:hover, .btn-white:focus {
 	color: #FFF;
-	background: transparent;
+	background: #7EC13F;
 	border-color:#7EC13F;
 }
 
@@ -307,9 +306,9 @@ section {
 }
 
 .btn-green {
-	background:;
-	border-color:;
-	color:#000000;
+	background:#7EC13F;
+	border-color: #7EC13F;
+	color:#FFF;
 }
 
 .btn-green:hover, .btn-green:focus {
@@ -326,8 +325,8 @@ section {
 
 .btn-gray-border:hover, .btn-gray-border:focus {
 	color: #FFF;
-	background:#DCDCDC	;
-	border-color:#DCDCDC;
+	background:#7EC13F;
+	border-color:#7EC13F;
 }
 
 /*-----------------------------------------------------------------*/
@@ -1066,12 +1065,12 @@ html[xmlns] .slides {
 }
 
 .content-tab-1 > .nav > li.active > a > h4, .content-tab-1 > .nav > li.active > a > i {
-    color: #B1AEAE;
+    color: #FFF;
 }
 
 .content-tab-1 > .nav > li.active {
-    border: 2px solid #B1AEAE;
-    background: #FFF;
+    border: 2px solid #7EC13F;
+    background: #7EC13F;
 }
 
 .tab-content-main {
@@ -1091,8 +1090,8 @@ html[xmlns] .slides {
 	position: absolute;
 	width: 40px;
 	height: 40px;
-	background: transparent	 ;
-	color: #B1AEAE;
+	background: #7EC13F ;
+	color: #FFF;
 	text-align: center;
 	line-height: 35px;
 	font-size: 20px;
@@ -1106,8 +1105,8 @@ html[xmlns] .slides {
 }
 
 .tab1-features:hover .icon {
-	border-color:#B1AEAE;
-	color:#B1AEAE;
+	border-color:#7EC13F;
+	color:#7EC13F;
 	background:transparent;
 }
 
@@ -1119,11 +1118,10 @@ html[xmlns] .slides {
 	text-align: center;
 	position: absolute;
 	top: 45%;
-	width:70%;
+	width:100%;
 }
 
-.tab-carousel.owl-theme .owl-controls .owl-buttons div {
-
+.tab-carousel.owl-theme .owl-controls .owl-buttons  {
 	display: block;
 	width: 30px;
 	height: 30px;
@@ -1131,7 +1129,7 @@ html[xmlns] .slides {
 	font-size:20px;
 	border-radius:0;
 	opacity:1;
-	background:transparent	;
+	background:#7EC13F;
 	position: absolute;
 	margin: 0;
 }
@@ -1151,7 +1149,7 @@ html[xmlns] .slides {
 
 .tab-carousel .item img {
 	display: block;
-	width: 70%;
+	width: 100%;
 	height: auto;
 }
 
@@ -1193,10 +1191,10 @@ html[xmlns] .slides {
 	height: 55px;
 	line-height: 55px;
 	text-align: center;
-	element.style 
+	color: #7EC13F;
 	font-size: 22px;
 	font-weight: 600;
-	border: 1px solid transparent;
+	border: 1px solid #7EC13F;
 	position: relative;
 	border-radius: 28px;
 	transition: all 0.7s ease-in-out 0s;
@@ -1483,8 +1481,8 @@ ul.timeline {
 
 .filter.active, .filter:hover {
 	color:#FFF;
-	background:#CFD9E6;
-	border-color:#;
+	background:#7EC13F;
+	border-color:#7EC13F;
 }
 
 .work-main {
@@ -1685,8 +1683,8 @@ ul.timeline {
 }
 
 .socials ul li a:hover {
-	background:transparent;
-	border-color:transparent;
+	background:#7EC13F;
+	border-color:#7EC13F;
 	color:#FFF;
 }
 
@@ -1801,7 +1799,7 @@ ul.timeline {
 	border-radius: 50%;
 	display: inline-block;
 	margin: 0px auto;
-	background: #transparent none repeat scroll 0% 0%;
+	background: #7EC13F none repeat scroll 0% 0%;
 }
 
 .services-box .services-desc {
@@ -2086,8 +2084,8 @@ ul.timeline {
 }
 
 #testimonials .owl-controls .owl-page.active span {
-	background:#DCDCDC	;
-	border-color:#C0C0C0;
+	background:#7EC13F;
+	border-color:#7EC13F;
 }
 
 /*-----------------------------------------------------------------*/
@@ -2213,7 +2211,7 @@ ul.timeline {
 	font-size:20px;
 	border-radius:0;
 	opacity:0.9;
-	background:transparent;
+	background:#7EC13F;
 	position: absolute;
 }
 
@@ -2226,7 +2224,7 @@ ul.timeline {
 }
 
 #featured-works .owl-prev:hover, #featured-works .owl-next:hover {
-	background:transparent;
+	background:#7EC13F;
 	opacity:1;
 }
 
@@ -2289,7 +2287,7 @@ ul.timeline {
 }
 
 .breadcrumb ul li a:hover {
-	color:#DCDCDC;
+	color:#7EC13F;
 }
 
 .breadcrumb ul li.current a {
@@ -2297,7 +2295,7 @@ ul.timeline {
 }
 
 .breadcrumb ul li.current a:hover {
-	color: #DCDCDC;
+	color: #7EC13F;
 }
 
 .work-detail .btn {
@@ -2354,7 +2352,7 @@ ul.timeline {
 	font-size:20px;
 	border-radius:0;
 	opacity:0.8;
-	background:transparent;
+	background:#7EC13F;
 	position: absolute;
 }
 
@@ -2368,7 +2366,7 @@ ul.timeline {
 
 #single-work-slider .owl-prev:hover, #single-work-slider .owl-next:hover {
 	opacity:1;
-	background:transparent;
+	background:#7EC13F;
 }
 
 #single-work-slider .item img {
@@ -2479,7 +2477,7 @@ blockquote {
 	text-align: justify;
 	color: #929292;
 	letter-spacing: 0.1px;
-	border-left: 5px solid #D3D3D3;
+	border-left: 5px solid #7EC13F;
 }
 
 blockquote a {
@@ -2511,7 +2509,7 @@ blockquote em {
 }
 
 .comment-form .form-control:focus , .search-box .form-control:focus{
-	border:2px solid #DCDCDC!important;
+	border:2px solid #B6DC93 !important;
 }
 
 
@@ -2608,7 +2606,7 @@ li.comment ol.comment-sub {
 .comment-list ol .comment-name a.comment-reply {
 	font-size: 13px;
 	font-weight: 600;
-	color: #696969;
+	color: rgb(126, 193, 63);
 }
 
 .comment-list ol .comment-desc {
@@ -2680,7 +2678,7 @@ li.comment ol.comment-sub {
 }
 
 .post-categories a:hover {
-	color:#696969;
+	color:#7EC13F;
 }
 
 .sidebar-widget {
@@ -2696,7 +2694,7 @@ li.comment ol.comment-sub {
 }
 
 .sidebar-widget a:hover {
-	color:#DCDCDC;
+	color:#7EC13F;
 }
 
 .sidebar-widget img {
@@ -2739,7 +2737,7 @@ li.comment ol.comment-sub {
 }
 
 .tags a:hover {
-	background:#DCDCDC;
+	background:#7EC13F;
 	color:#FFF;
 	border: 1px solid #ccc;
 }
